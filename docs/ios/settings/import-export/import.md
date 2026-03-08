@@ -21,21 +21,28 @@ Headcode can import data from a **full backup** file (`.zip`) that was previousl
 The import includes:
 - All your spots
 - All attached photos
-- Reference data (locomotive details, classes, etc.)
+- Your **Wish List** (active and completed wishes)
+- Reference data (locomotive classes, types, conditions, locomotive details, locations, operators)
 
 ## How to Import
 
 1. Go to **Settings > Import / Export**
 2. Tap **Import / Restore**
 3. Select your backup file (`.zip`) from your device
-4. Wait for the import to complete
+4. Choose how to handle existing data (see below)
+5. Wait for the import to complete
 
 <!-- Screenshot: The file picker showing a Headcode backup file selected -->
 
-## Important Notes
+## Replace vs Merge
+
+When you import a backup, Headcode asks how to handle your existing data:
+
+- **Replace** — Wipes all current data (spots, wish list, reference data) and replaces it entirely with the backup contents. Use this when restoring to a clean state or migrating to a new device.
+- **Merge** — Combines the backup data with your existing data. Spots, wish list items, and reference entries from the backup are added alongside what you already have. Use this when consolidating data from multiple sources.
 
 ::: warning
-Importing data will **replace** your current Headcode data. Make sure to export a backup of your current data first if you want to keep it.
+**Replace** permanently deletes your current data. Export a backup first if you may need it.
 :::
 
 - Only import files that were exported from Headcode

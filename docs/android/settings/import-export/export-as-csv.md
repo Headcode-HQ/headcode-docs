@@ -4,8 +4,8 @@ prev:
   text: Import
   link: /android/settings/import-export/import
 next:
-  text: Full Backup
-  link: /android/settings/import-export/export-full
+  text: Export Wishlist as CSV
+  link: /android/settings/import-export/export-wishlist
 ---
 
 # Export as CSV
@@ -56,6 +56,10 @@ The file uses standard CSV format with:
 - One spot per row
 - Comma-separated values
 - UTF-8 encoding for special characters
+
+## Exporting Your Wish List
+
+The same Import / Export screen also has an **Export Wishlist as CSV** option. This is a separate export that covers only your active Wish List, not your logged spots. See [Export Wishlist as CSV](export-wishlist) for details.
 
 ## Tips
 

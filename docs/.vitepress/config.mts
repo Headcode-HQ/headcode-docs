@@ -34,6 +34,7 @@ const makeSidebar = (base = "") => [
       { text: "Edit a Spot", link: `${base}my-spots/edit-a-spot` },
       { text: "Delete a Spot", link: `${base}my-spots/delete-a-spot` },
       { text: "Filtering", link: `${base}my-spots/filtering` },
+      { text: "Wish List", link: `${base}my-spots/wish-list` },
     ],
   },
   {
@@ -54,6 +55,7 @@ const makeSidebar = (base = "") => [
         items: [
           { text: "Import / Restore", link: `${base}settings/import-export/import` },
           { text: "Export as CSV", link: `${base}settings/import-export/export-as-csv` },
+          { text: "Export Wishlist as CSV", link: `${base}settings/import-export/export-wishlist` },
           { text: "Full Backup", link: `${base}settings/import-export/export-full` },
           { text: "Export Photos", link: `${base}settings/import-export/export-photos` },
         ],
@@ -61,13 +63,16 @@ const makeSidebar = (base = "") => [
       {
         text: "Reference Data",
         items: [
-          { text: "Locomotive Details", link: `${base}settings/reference-data/locomotive-details` },
           { text: "Locomotive Classes", link: `${base}settings/reference-data/locomotive-classes` },
+          { text: "Locomotive Types", link: `${base}settings/reference-data/locomotive-types` },
+          { text: "Locomotive Conditions", link: `${base}settings/reference-data/locomotive-conditions` },
+          { text: "Locomotive Details", link: `${base}settings/reference-data/locomotive-details` },
           { text: "Locations", link: `${base}settings/reference-data/locations` },
           { text: "Operators", link: `${base}settings/reference-data/operators` },
         ],
       },
       { text: "Delete All Spots", link: `${base}settings/delete-all-spots` },
+      { text: "Wishlist Data", link: `${base}settings/wishlist-data` },
       { text: "Restart Tutorial", link: `${base}settings/restart-tutorial` },
     ],
   },

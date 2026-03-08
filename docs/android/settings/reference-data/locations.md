@@ -22,12 +22,21 @@ Using consistent location names helps you:
 - Search for spots at specific locations
 - Remember your regular spotting locations
 
+## Preset UK Stations
+
+Headcode comes pre-loaded with a comprehensive list of UK railway stations. These appear in suggestions immediately without needing to be added manually.
+
+::: info
+Preset stations cannot be edited or deleted. They are always available as suggestions alongside your own saved locations.
+:::
+
 ## How Locations Are Added
 
-Locations are added to Headcode in two ways:
+Locations are added to Headcode in three ways:
 
-1. **Automatically** - When you enter a new location while logging a spot, it's saved for future use
-2. **Manually** - You can add locations directly in Reference Data
+1. **Preset** - UK station names are included out of the box as suggestions
+2. **Automatically** - When you enter a new location while logging a spot, it's saved for future use
+3. **Manually** - You can add locations directly in Reference Data
 
 ## Viewing Locations
 
