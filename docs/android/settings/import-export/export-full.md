@@ -1,8 +1,8 @@
 ---
 outline: page
 prev:
-  text: Export as CSV
-  link: /android/settings/import-export/export-as-csv
+  text: Export Wishlist as CSV
+  link: /android/settings/import-export/export-wishlist
 next:
   text: Export Photos
   link: /android/settings/import-export/export-photos
@@ -20,8 +20,13 @@ A full backup contains everything:
 
 - All your spots with complete details
 - All attached photos
-- Reference data (locomotive details, classes, locations, operators)
+- Your **Wish List** (active and completed wishes)
+- Reference data (locomotive classes, types, conditions, locomotive details, locations, operators)
 - App settings
+
+::: info
+Wish List data is stored as part of locomotive details in the backup. Importing a full backup restores your complete wish list.
+:::
 
 The backup is saved as a `.zip` file that can be used to [restore your data](/android/settings/import-export/import) later.
 

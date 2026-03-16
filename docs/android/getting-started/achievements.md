@@ -36,9 +36,9 @@ At the top of the Achievements screen, you'll see your current level and XP prog
 
 ### How Levels Work
 
-- You start at **Level 1**
-- Each level requires more XP than the last (100 XP x current level)
-- There's no maximum level - keep spotting to keep progressing!
+- You start at **Level 0**
+- Each level requires progressively more XP to reach
+- There are 101 levels in total
 
 ## Earning XP
 
@@ -46,48 +46,50 @@ You earn XP (Experience Points) by:
 
 | Action | XP Earned |
 |--------|-----------|
-| Log a spot | +5 XP |
+| Log a spot | +3 XP |
 | Add a photo to a spot | +3 XP |
-| Add detailed info to a spot | +5 XP |
-| Unlock an achievement | Varies |
+| Add detailed info to a spot | +3 XP |
+| Unlock an achievement tier | 25–250 XP |
 
-## Achievements
+## Achievement Tracks
 
-Achievements are goals you can unlock through your spotting activity. Each achievement shows:
+Achievements are organised into **5 tracks**, each with **10 tiers**. As you progress through a track, each tier unlocks a larger XP reward.
 
-- An icon representing the achievement
-- The achievement name and description
-- A progress bar showing how close you are to unlocking it
-- Whether it's locked or unlocked
+Each track represents a different aspect of your spotting activity:
 
-<a href="/images/android/awards.png" target="_blank">
-  <img
-    src="/images/android/awards.png"
-    class="doc-img md"
-    alt="Headcode – Calendar screen"
-  />
-</a>
+| Track | What It Tracks |
+|-------|---------------|
+| **Spotter** | Total number of spots logged |
+| **Photographer** | Photos attached to spots |
+| **Detail Collector** | Spots with detailed information recorded |
+| **Wish Hunter** | Wished locomotives that you've spotted |
+| **Explorer** | Unique locations visited |
 
-### Available Achievements
+### Tier XP Rewards
 
-| Achievement | Description | How to Unlock | XP Reward |
-|-------------|-------------|---------------|-----------|
-| **First Spot** | Log your first spot | Record 1 spot | 50 XP |
-| **Getting Started** | Log 10 spots | Record 10 spots | 50 XP |
-| **Frequent Spotter** | Log 50 spots | Record 50 spots | 75 XP |
-| **Master of Tracks** | Log 250 spots | Record 250 spots | 100 XP |
-| **Steam Daemon** | Log 25 steam locomotives | Record 25 steam locos | 75 XP |
-| **Photographer** | Add 50 photos | Attach 50 photos to spots | 50 XP |
-| **Detail Oriented** | Add detailed info to 25 spots | Add details to 25 spots | 75 XP |
+Each tier you unlock within a track earns you XP:
+
+| Tier | XP Reward |
+|------|-----------|
+| 1 | 25 XP |
+| 2 | 50 XP |
+| 3 | 75 XP |
+| 4 | 100 XP |
+| 5 | 125 XP |
+| 6 | 150 XP |
+| 7 | 175 XP |
+| 8 | 200 XP |
+| 9 | 225 XP |
+| 10 | 250 XP |
 
 ## Progress Tracking
 
-All achievements show your progress even before they're unlocked. This helps you see how close you are to your next achievement.
+Each track shows a progress bar indicating how close you are to the next tier. Completed tiers are marked as unlocked.
 
 ## Offline & Local
 
 All achievement data is stored locally on your device. Your progress and levels work completely offline - no internet connection required.
 
 ::: info
-Achievements are calculated from your spot data. If you delete spots, your achievement progress may change.
+Achievement progress is calculated from your spot data. If you delete spots, your progress in affected tracks may decrease.
 :::

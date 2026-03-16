@@ -16,6 +16,15 @@ My Spots is your complete collection of recorded sightings. Here you can browse,
   />
 </a>
 
+## Tabs
+
+My Spots has two tabs at the top of the screen:
+
+- **My Spots** - Your full list of logged sightings
+- **Wish List** - Locomotives you want to spot
+
+Tap a tab to switch between views. See [Wish List](wish-list) for details on tracking wanted locomotives.
+
 ## Spot List
 
 Spots are displayed in chronological order with the most recent at the top. Each spot in the list shows:
@@ -63,3 +72,4 @@ When scrolling the list, any open swipe actions will automatically close.
 - [Edit a Spot](edit-a-spot) - How to modify an existing spot
 - [Delete a Spot](delete-a-spot) - How to remove a spot
 - [Filtering](filtering) - Find specific spots with filters
+- [Wish List](wish-list) - Track locomotives you want to spot

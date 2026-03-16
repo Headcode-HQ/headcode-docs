@@ -41,6 +41,14 @@ As you type, Headcode will suggest locations you've used before. This helps you 
   />
 </a>
 
+## GPS Location
+
+Tap the **radar button** next to the location field to automatically detect your current location. Headcode will reverse-geocode your GPS coordinates and populate the field with a nearby place name.
+
+::: info
+The GPS button only activates when the location field is empty. If you've already typed something, tap the button after clearing the field. Your GPS coordinates are always saved with the spot even if a place name can't be determined.
+:::
+
 ## Tips
 
 - Use consistent naming for the same location to ensure accurate statistics

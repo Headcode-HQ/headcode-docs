@@ -48,13 +48,17 @@ Settings is organised into several sections:
 ### Data Management
 - [Import](import-export/import) - Restore from a backup
 - [Export as CSV](import-export/export-as-csv) - Export spot data as spreadsheet
+- [Export Wishlist as CSV](import-export/export-wishlist) - Export your active Wish List
 - [Full Backup](import-export/export-full) - Export all data including photos
 - [Export Photos](import-export/export-photos) - Export photos only
 - [Delete All Spots](delete-all-spots) - Remove all data
+- [Wishlist Data](wishlist-data) - View and delete all Wish List items
 
 ### Reference Data
-- [Locomotive Details](reference-data/locomotive-details) - Technical specifications for locomotives
 - [Locomotive Classes](reference-data/locomotive-classes) - Manage class designations
+- [Locomotive Types](reference-data/locomotive-types) - Manage traction type descriptors
+- [Locomotive Conditions](reference-data/locomotive-conditions) - Manage condition descriptors
+- [Locomotive Details](reference-data/locomotive-details) - Technical specifications for locomotives
 - [Locations](reference-data/locations) - Manage saved locations
 - [Operators](reference-data/operators) - Manage operator names
 
