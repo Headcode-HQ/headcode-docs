@@ -24,6 +24,40 @@ The Stats screen gives you insights into your spotting activity. All statistics 
 Statistics are calculated in real-time from your spot data. If you haven't logged any spots yet, this screen will prompt you to start logging.
 :::
 
+## Year In Review
+
+At the end of each year, Headcode can show a special **Year in Review** summary from the Stats screen.
+
+- Available from **17 December** to **14 January**
+- In December, it shows stats for the **current year**
+- In January, it shows stats for the **previous year**
+
+Year in Review includes:
+
+- Most spotted locomotive
+- Busiest day
+- Favorite location
+- Longest streak
+- Most spotted operator
+- Favorite traction
+- Longest train
+- Total spots for the year
+- Total photographs for the year
+
+## Date And Time Sync Checks
+
+To reduce early access caused by manual device clock changes, Headcode uses a trusted-time check for Year in Review availability:
+
+- When possible, Headcode uses **network time**
+- If you're offline, Headcode falls back to **device time**
+- If the device time appears inconsistent with previously trusted time, Year in Review may stay locked until time can be verified again
+
+If Year in Review is unexpectedly locked:
+
+1. Confirm your device date and time are set correctly
+2. Connect to the internet
+3. Return to the Stats screen and try again
+
 ## Spot Streak
 
 At the top of the Stats screen, you'll see your current spot streak. This shows how many consecutive days you've been recording spots.

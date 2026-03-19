@@ -32,6 +32,7 @@ Spots are displayed in chronological order with the most recent at the top. Each
 - Locomotive number and name
 - Date spotted
 - Location (if recorded)
+- **Onboard** or **Trackside** indicator
 - A photo indicator if photos are attached
 
 Tap any spot to view its full [Spot Details](spot-details).
