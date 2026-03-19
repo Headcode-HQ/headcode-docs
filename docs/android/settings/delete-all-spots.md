@@ -1,8 +1,8 @@
 ---
 outline: page
 prev:
-  text: Export Photos
-  link: /android/settings/import-export/export-photos
+  text: iCloud Sync
+  link: /android/settings/icloud-sync
 next:
   text: Reference Data
   link: /android/settings/reference-data/locomotive-details

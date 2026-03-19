@@ -57,12 +57,21 @@ Filter by locomotive name (e.g., "Flying Scotsman").
 
 Filter by locomotive class (e.g., "66", "A4").
 
+### Origin
+
+Filter by how the spot was recorded:
+
+- **All** - Show every spot
+- **Onboard** - Show only spots marked as onboard
+- **Trackside** - Show only spots that were not marked as onboard
+
 ## Applying Filters
 
 Once you've entered your filter criteria:
 
 1. Tap **Apply Filters** to see matching spots
 2. The My Spots list updates to show only spots matching your criteria
+3. Active filters appear as chips above the list (including Origin when used)
 
 <a href="/images/ios/my-spots-filtered.png" target="_blank">
   <img
@@ -78,6 +87,8 @@ You can use multiple filters at once. For example:
 
 - All Class 66 spots at York
 - All spots from January 2024 with "Flying Scotsman"
+- All onboard spots from a specific month
+- All trackside spots at a specific location
 
 Filters are combined using "AND" logic - spots must match all criteria you specify.
 
@@ -93,4 +104,5 @@ To remove filters and see all your spots again:
 
 - Use filters when you have many spots and want to find something specific
 - For quick text searches, the [Search](/ios/getting-started/searching) screen may be faster
+- The list row now shows an **Onboard** or **Trackside** chip to match your filter results
 - Filters persist until you clear them, so remember to clear them when done

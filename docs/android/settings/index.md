@@ -26,6 +26,7 @@ Settings is organised into several sections:
 ### Data Management
 
 - **[Import / Export](import-export/import)** - Backup and restore your data
+- **[iCloud Sync](icloud-sync)** - Not available on Android
 - **[Reference Data](reference-data/locomotive-details)** - Manage locomotive details, classes, locations, and operators
 - **[Delete All Spots](delete-all-spots)** - Start fresh by removing all data
 
@@ -51,6 +52,7 @@ Settings is organised into several sections:
 - [Export Wishlist as CSV](import-export/export-wishlist) - Export your active Wish List
 - [Full Backup](import-export/export-full) - Export all data including photos
 - [Export Photos](import-export/export-photos) - Export photos only
+- [iCloud Sync](icloud-sync) - Not available on Android
 - [Delete All Spots](delete-all-spots) - Remove all data
 - [Wishlist Data](wishlist-data) - View and delete all Wish List items
 

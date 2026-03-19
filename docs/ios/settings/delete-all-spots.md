@@ -1,8 +1,8 @@
 ---
 outline: page
 prev:
-  text: Export Photos
-  link: /ios/settings/import-export/export-photos
+  text: iCloud Sync
+  link: /ios/settings/icloud-sync
 next:
   text: Reference Data
   link: /ios/settings/reference-data/locomotive-details

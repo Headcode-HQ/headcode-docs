@@ -80,6 +80,28 @@ If you recorded train details, this card shows:
 - Accompanied status
 - Carriage count
 
+### Location
+
+The Location card appears below **Movement Details**. It brings all location data together in one place:
+
+- Location name (if entered)
+- Captured coordinates (latitude/longitude)
+- Accuracy (when available)
+- An interactive map when coordinates are valid
+
+If your spot has coordinates but no location name, Headcode shows:
+
+> Coordinates saved. Add a location name if you'd like.
+
+### Location Map (Offline Fallback)
+
+When coordinates are available, Headcode attempts to load OpenStreetMap tiles in the Location card.
+
+- Spot Details always loads immediately (map loading never blocks the screen)
+- If map tiles fail to load (for example, no signal in the field), the map area falls back to:
+  - **"Map unavailable offline. Coordinates are shown above."**
+- Coordinates remain visible even when map tiles are unavailable
+
 ### Journey
 
 If you marked the spot as "onboard", this card shows your journey with departure and arrival stations.
