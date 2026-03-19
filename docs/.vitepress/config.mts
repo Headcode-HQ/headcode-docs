@@ -60,6 +60,7 @@ const makeSidebar = (base = "") => [
           { text: "Export Photos", link: `${base}settings/import-export/export-photos` },
         ],
       },
+      { text: "iCloud Sync", link: `${base}settings/icloud-sync` },
       {
         text: "Reference Data",
         items: [
