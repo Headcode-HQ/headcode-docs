@@ -79,6 +79,13 @@ const makeSidebar = (base = "") => [
   },
 ];
 
+const locomotiveDatabaseSidebar = [
+  { text: "Overview", link: "/locomotive-database/index" },
+  { text: "Search & Browse", link: "/locomotive-database/search-and-browse" },
+  { text: "Locomotive Details", link: "/locomotive-database/locomotive-details" },
+  { text: "Public API", link: "/locomotive-database/api" },
+];
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Headcode",
@@ -106,10 +113,12 @@ export default defineConfig({
           { text: "Android", link: "/android/" },
         ],
       },
+      { text: "Locomotive Database", link: "/locomotive-database/index" },
     ],
     sidebar: {
       "/ios/": makeSidebar("/ios/"),
       "/android/": makeSidebar("/android/"),
+      "/locomotive-database/": locomotiveDatabaseSidebar,
       "/": makeSidebar("/ios/"),
     },
     socialLinks: [

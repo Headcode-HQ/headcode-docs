@@ -34,6 +34,10 @@ features:
     details: Customise Headcode with themes, notifications, data backup, and reference data management.
     link: /ios/settings/index
     linkText: Configure
+  - title: Locomotive Database
+    details: Explore the web locomotive database user guide and public API examples.
+    link: /locomotive-database/index
+    linkText: Explore Docs
   - title: Request A Feature
     details: Got an idea for a new feature? We'd love to hear from you.
     link: https://feedback.Headcode.app/
@@ -54,6 +58,7 @@ Headcode is the train spotting companion app designed for UK rail enthusiasts. W
 - [Stats](/ios/getting-started/stats) - See your spotting statistics
 - [Import/Export](/ios/settings/import-export/import) - Backup and restore your data
 - [Widgets](/ios/settings/widgets) - Add Headcode to your home screen
+- [Locomotive Database](/locomotive-database/index) - Public web database and API guide
 
 ## Need Help?
 
