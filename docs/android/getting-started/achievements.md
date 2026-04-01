@@ -1,8 +1,8 @@
 ---
 outline: page
 prev:
-  text: Searching
-  link: /android/getting-started/searching
+  text: Upcoming Events & Timetables
+  link: /android/getting-started/upcoming-events
 next: false
 ---
 

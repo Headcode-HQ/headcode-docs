@@ -1,8 +1,8 @@
 ---
 outline: page
 prev:
-  text: Searching
-  link: /ios/getting-started/searching
+  text: Upcoming Events & Timetables
+  link: /ios/getting-started/upcoming-events
 next: false
 ---
 

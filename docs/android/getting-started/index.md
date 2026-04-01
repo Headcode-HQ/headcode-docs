@@ -49,4 +49,5 @@ Headcode uses a bottom navigation bar to help you move between the main sections
 - [Calendar](/android/getting-started/calendar) - Viewing spots by date
 - [Gallery](/android/getting-started/gallery) - Browsing your spot photos
 - [Searching](/android/getting-started/searching) - Finding specific spots
+- [Upcoming Events & Timetables](/android/getting-started/upcoming-events) - Import gala/event packs and timetables
 - [Achievements](/android/getting-started/achievements) - Track your progress and unlock achievements

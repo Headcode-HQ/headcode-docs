@@ -49,4 +49,5 @@ Headcode uses a bottom navigation bar to help you move between the main sections
 - [Calendar](/ios/getting-started/calendar) - Viewing spots by date
 - [Gallery](/ios/getting-started/gallery) - Browsing your spot photos
 - [Searching](/ios/getting-started/searching) - Finding specific spots
+- [Upcoming Events & Timetables](/ios/getting-started/upcoming-events) - Import gala/event packs and timetables
 - [Achievements](/ios/getting-started/achievements) - Track your progress and unlock achievements

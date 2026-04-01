@@ -4,8 +4,8 @@ prev:
   text: Gallery
   link: /ios/getting-started/gallery
 next:
-  text: Achievements
-  link: /ios/getting-started/achievements
+  text: Upcoming Events & Timetables
+  link: /ios/getting-started/upcoming-events
 ---
 
 # Searching

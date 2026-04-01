@@ -4,8 +4,8 @@ prev:
   text: Gallery
   link: /android/getting-started/gallery
 next:
-  text: Achievements
-  link: /android/getting-started/achievements
+  text: Upcoming Events & Timetables
+  link: /android/getting-started/upcoming-events
 ---
 
 # Searching

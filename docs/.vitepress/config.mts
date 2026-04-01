@@ -11,6 +11,7 @@ const makeSidebar = (base = "") => [
       { text: "Calendar", link: `${base}getting-started/calendar` },
       { text: "Gallery", link: `${base}getting-started/gallery` },
       { text: "Searching", link: `${base}getting-started/searching` },
+      { text: "Upcoming Events", link: `${base}getting-started/upcoming-events` },
       { text: "Achievements", link: `${base}getting-started/achievements` },
     ],
   },
