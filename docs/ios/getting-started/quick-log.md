@@ -28,6 +28,12 @@ The Quick Log screen is the first screen you see when Headcode opens. It's desig
 
 That's it! Your spot is now recorded with today's date and time.
 
+## Community Database Publishing
+
+If you have enabled **Publish locomotives online** in [Settings](/ios/settings/community-database), Headcode can also send the locomotive record to the online community database when you create a new spot.
+
+Only locomotive metadata is uploaded. Your location, notes, photos, and personal information are not included.
+
 ## Adding Photos
 
 You can attach photos to your spot directly from the Quick Log screen.
@@ -86,4 +92,3 @@ Tapping **No** will keep your spot as a quick entry.
 ::: tip
 You can disable this prompt in [Settings > Preferences > Reminders](/ios/settings/preferences/reminders) if you prefer not to be asked each time.
 :::
-

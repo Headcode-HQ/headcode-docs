@@ -27,6 +27,7 @@ Settings is organised into several sections:
 
 - **[Import / Export](import-export/import)** - Backup and restore your data
 - **[iCloud Sync](icloud-sync)** - Not available on Android
+- **[Community Database](community-database)** - Connect your Headcode account and optionally publish locomotive records online
 - **[Reference Data](reference-data/locomotive-details)** - Manage locomotive details, classes, locations, and operators
 - **[Delete All Spots](delete-all-spots)** - Start fresh by removing all data
 
@@ -53,6 +54,7 @@ Settings is organised into several sections:
 - [Full Backup](import-export/export-full) - Export all data including photos
 - [Export Photos](import-export/export-photos) - Export photos only
 - [iCloud Sync](icloud-sync) - Not available on Android
+- [Community Database](community-database) - Opt in to online locomotive publishing
 - [Delete All Spots](delete-all-spots) - Remove all data
 - [Wishlist Data](wishlist-data) - View and delete all Wish List items
 

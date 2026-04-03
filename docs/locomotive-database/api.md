@@ -21,6 +21,8 @@ Read endpoints are public.
 
 Write endpoints (`POST`, `PATCH`, `DELETE`, photo upload/delete) require admin authentication and are not covered in this user-side guide.
 
+There is one exception for mobile community publishing: the Headcode mobile app can use a scoped bearer token to check for an existing locomotive by number and create a new locomotive record after the user has explicitly opted in and connected their account.
+
 ## Common Object Shape
 
 Most endpoints return a locomotive object with fields like:

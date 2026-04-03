@@ -70,4 +70,5 @@ This option only appears when Locomotive Type is set to **Steam**. Toggle this o
 
 - Headcode remembers your previous entries and will suggest them as you type
 - You can manage locomotive classes and operators in [Reference Data](/android/settings/reference-data/locomotive-details)
+- If [Community Database publishing](/android/settings/community-database) is enabled, a newly created spot may also publish these locomotive fields to the online database
 - All fields are optional - fill in as much or as little as you like

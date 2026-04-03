@@ -62,6 +62,7 @@ const makeSidebar = (base = "") => [
         ],
       },
       { text: "iCloud Sync", link: `${base}settings/icloud-sync` },
+      { text: "Community Database", link: `${base}settings/community-database` },
       {
         text: "Reference Data",
         items: [
@@ -85,9 +86,9 @@ const locomotiveDatabaseSidebar = [
   { text: "Search & Browse", link: "/locomotive-database/search-and-browse" },
   { text: "Locomotive Details", link: "/locomotive-database/locomotive-details" },
   { text: "Public API", link: "/locomotive-database/api" },
+  { text: "Mobile Contributions", link: "/locomotive-database/mobile-contributions" },
 ];
 
-// https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Headcode",
   description: "Knowledge base for Headcode",

@@ -23,6 +23,7 @@ The database runs as a standalone web app and as a service used by the main Head
 - Filter and sort the full database list
 - Open a public detail page for each locomotive
 - View photo galleries and record metadata (including last edited timestamp)
+- Optionally contribute new locomotive records from the Headcode mobile app
 
 ## Public Experience at a Glance
 
@@ -36,3 +37,4 @@ The database runs as a standalone web app and as a service used by the main Head
 - [Search & Browse](/locomotive-database/search-and-browse)
 - [Locomotive Details](/locomotive-database/locomotive-details)
 - [Public API](/locomotive-database/api)
+- [Mobile Contributions](/locomotive-database/mobile-contributions)
