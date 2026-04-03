@@ -54,6 +54,46 @@ The updated information will appear on all spots for this locomotive.
 
 Locomotives are typically added automatically when you log your first spot for them. However, you can also add locomotive details manually if you want to pre-populate information.
 
+## Importing from the Headcode Database
+
+You can also import missing locomotives from the public Headcode online database.
+
+1. Go to **Settings > Reference Data > Locomotive Details**
+2. Use **Import from Headcode** the first time you run it
+3. On later runs, use **Check for Missing Locomotives**
+
+Headcode downloads the public locomotive catalogue and compares it against your local reference data using the locomotive number.
+
+- If a locomotive number already exists locally, it is skipped
+- If a locomotive number does not exist locally, a new local reference entry is created
+- Existing local locomotive details are never overwritten by an import
+
+While the import runs, progress is shown inline on the screen. After it finishes, Headcode shows a short summary with the number of locomotives imported and skipped, along with the last successful import time.
+
+### What gets imported
+
+The import adds any supported locomotive reference fields that are available from the online database, including:
+
+- Locomotive number
+- Locomotive name
+- Power type / traction type
+
+When available, Headcode also reuses or creates matching reference entries for:
+
+- Locomotive classes
+- Locomotive types
+- Operators
+- Locomotive conditions
+
+Imported traction types are normalised to Headcode's existing reference values where possible, so values such as `DIESEL` will appear as `Diesel` in the app.
+
+### Important notes
+
+- Import is manual only; it does not run automatically in the background
+- Import is safe to run more than once
+- If you are offline or the request fails, your existing local data stays unchanged
+- Local edits remain local and are not replaced by later imports
+
 ## Deleting Locomotive Details
 
 1. Find the locomotive in the list
